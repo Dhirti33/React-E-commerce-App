@@ -1,0 +1,157 @@
+.head {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #031301;
+  width: 100%;
+  height: 3.5rem;
+  padding: 0.7em;
+  color: #f2fdec;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mainBar {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.mainBar > .center_menu {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+.mainBar > .center_menu > a {
+  height: 100%;
+  width: 5.5em;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.2em;
+  font-size: larger;
+  font-weight: 600;
+  text-decoration: none;
+  color: #f2fdec;
+}
+
+.mainBar > .right_menu {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.mainBar > .right_menu > div {
+  display: flex;
+  flex-direction: row;
+  width: 2em;
+  height: 2em;
+  border-radius: 0.2em;
+}
+
+.mainBar > .right_menu > div > svg {
+  height: 100%;
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 2em;
+  height: 2em;
+}
+
+.search > svg:hover {
+  fill: #209506;
+  height: 35px;
+  width: 35px;
+}
+
+.searchInput {
+  position: absolute;
+  height: 2em;
+  width: 15em;
+  top: 0em;
+  right: 2.5em;
+  display: none;
+}
+
+.searchInput.active {
+  display: flex;
+}
+
+#find {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #209506;
+  padding-left: 10px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  width: 2em;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
+}
+
+.cart > svg:hover {
+  fill: #209506;
+  height: 30px;
+  width: 30px;
+}
+
+.logo {
+  font-size: 2.5em;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.mainBar > .center_menu > a:hover {
+  background-color: #177705;
+  color: aliceblue;
+}
+
+.home.active {
+  background-color: #209506;
+}
+
+.product.active {
+  background-color: #209506;
+}
+
+.about.active {
+  background-color: #209506;
+}
+
+/* 
+@media (max-width : 800px) {
+    .hideOnMobile{
+        display: none;
+    }
+
+
+} */
+/* @media (max-width : 400px) {
+    .sideBar {
+        display: flex;
+    }
+
+
+} */

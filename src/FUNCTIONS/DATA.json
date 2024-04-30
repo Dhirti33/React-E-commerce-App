@@ -1,0 +1,122 @@
+[
+    {
+        "ID" : "1",
+        "IMAGE" : "../IMAGES/JIKOKOA-STOVE-2.jpg",
+        "NAME" : "Jikokoa Charcoal Stove-Large",
+        "PRICE" : "$600"
+    },
+    {
+        "ID" : "2",
+        "IMAGE" : "../IMAGES/Zaacoal-Original.jpeg",
+        "NAME" : "Zaacoal Charcoal Briquette – 5kg",
+        "PRICE" : "$50"
+    },
+    {
+        "ID" : "3",
+        "IMAGE" : "../IMAGES/Ecochar Medium Charcoal Stove.png",
+        "NAME" : "Envirofit Charcoal Stove Wide",
+        "PRICE" : "$350"
+    },
+    {
+        "ID" : "4",
+        "IMAGE" : "",
+        "NAME" : "Envirofit Supersaver Charcoal stove",
+        "PRICE" : "$250"
+    },
+    {
+        "ID" : "5",
+        "IMAGE" : "",
+        "NAME" : "CLEANCOOK ETHANOL STOVE – DOUBLE BURNER",
+        "PRICE" : "$650"
+    },
+    {
+        "ID" : "6",
+        "IMAGE" : "",
+        "NAME" : "Jikokoa/Ecoa Charcoal Stove – Medium",
+        "PRICE" : "$600"
+    },
+    {
+        "ID" : "7",
+        "IMAGE" : "",
+        "NAME" : "ECOONE ETHANOL STOVE – DOUBLE BURNER",
+        "PRICE" : "$400"
+    },
+    {
+        "ID" : "8",
+        "IMAGE" : "",
+        "NAME" : "Cookmate Charcoal Stove – Extra Large Size",
+        "PRICE" : "$150"
+    },
+    {
+        "ID" : "9",
+        "IMAGE" : "",
+        "NAME" : "TCT SOLAR HEATER",
+        "PRICE" : "$14500"
+    },
+    {
+        "ID" : "10",
+        "IMAGE" : "",
+        "NAME" : "Ethanol Gel Fuel 5 litres (1 Gallon)",
+        "PRICE" : "$100"
+    },
+    {
+        "ID" : "11",
+        "IMAGE" : "",
+        "NAME" : "Sunking Home Solar Lighting 3 Bulbs",
+        "PRICE" : "$900"
+    },
+    {
+        "ID" : "12",
+        "IMAGE" : "",
+        "NAME" : "20kg Pellets",
+        "PRICE" : "$200"
+    },
+    {
+        "ID" : "13",
+        "IMAGE" : "",
+        "NAME" : "Kike Ethanol Stove Single Unit",
+        "PRICE" : "$120"
+    },
+    {
+        "ID" : "14",
+        "IMAGE" : "",
+        "NAME" : "Single burner LPG stove",
+        "PRICE" : "$150"
+    },
+    {
+        "ID" : "15",
+        "IMAGE" : "",
+        "NAME" : "African Clean Energy Stove – Pellets",
+        "PRICE" : "$500"
+    },
+    {
+        "ID" : "16",
+        "IMAGE" : "",
+        "NAME" : "Envirofit Institutional Firewood Stove",
+        "PRICE" : "$4000"
+    },
+    {
+        "ID" : "17",
+        "IMAGE" : "",
+        "NAME" : "CleanCook Ethanol Stove – Single Burner",
+        "PRICE" : "$250"
+    },
+    {
+        "ID" : "18",
+        "IMAGE" : "",
+        "NAME" : "Ecochar Medium Charcoal Stove",
+        "PRICE" : "$230"
+    },
+    {
+        "ID" : "19",
+        "IMAGE" : "",
+        "NAME" : "SETECH Gasifier Stove",
+        "PRICE" : "$180"
+    },
+    {
+        "ID" : "20",
+        "IMAGE" : "",
+        "NAME" : "Cookmate Charcoal Stove – Large Size",
+        "PRICE" : "$100"
+    }
+]

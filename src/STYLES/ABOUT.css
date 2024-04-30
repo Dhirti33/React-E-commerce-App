@@ -1,0 +1,96 @@
+.aboutPage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs {
+    height: 50% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+
+.aboutUs > p {
+    text-align: center;
+}
+
+.aboutUsTop {
+    font-size: 2.5em;
+}
+
+.aboutUsInfo {
+    width: 70%;
+    font-size: 1em;
+    font-weight: 500;
+
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+.quote {
+    width: 50%;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.location {
+    height: 50% auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.location > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    gap: 1em;
+}
+
+h2 {
+    border-bottom: #031301 2px solid ;
+    margin: auto;
+    width: 20em;
+    text-align: center;
+
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.Form > input{
+    width: 25em;
+    height: 2em;
+    background-color: #e1fad1;
+    border: 1px solid #5ad235;
+    padding: 0.2em;
+    border-radius: 5px;
+    color: #031301;
+}
+
+#Send {
+    width: 10em;
+    color: #031301;
+    font-weight: 600;
+}
+
+#Send:hover {
+    background-color: #209506;
+}
+
+#Message {
+    border-color: #5ad235;
+    background-color: #e1fad1;
+    border-radius: 5px;
+    width: 40em;
+    height: 10em;
+    padding: 0.5em;
+}

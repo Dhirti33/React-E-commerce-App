@@ -1,0 +1,128 @@
+.Cart {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 3em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  color: #031301;
+}
+
+.cartProduct {
+  width: 50%;
+  height: 12rem;
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 2px 0px #5ad235;
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding: 0.5em;
+  border-radius: 20px;
+}
+
+.cartImage {
+  height: 100%;
+  width: 30%;
+  background-color: #8fe66f;
+  border-radius: 15px;
+}
+
+.cartInfo {
+  /* border: 1px solid green; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.cartName {
+  /* border: 1px solid palevioletred; */
+  height: 30%;
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+  align-items: center;
+  justify-content: left;
+}
+
+.cartPrice {
+  height: 20%;
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+  align-items: center;
+  justify-content: left;
+}
+
+.cartNumber {
+  border: 2px solid green;
+  border-radius: 10px;
+  height: 25%;
+  width: 9.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.cartDeg {
+  width: 2.5em;
+  height: 100%;
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartDeg:active {
+  background-color: #5ad235;
+}
+
+.cartNm {
+  width: 3em;
+  height: 100%;
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1f2a8;
+}
+
+.cartInc {
+  width: 2.5em;
+  height: 100%;
+  display: flex;
+  font-size: larger;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartInc:active {
+  background-color: #5ad235;
+}
+
+.addCart {
+  height: 25%;
+  width: 15em;
+  border: none;
+  background-color: #8fe66f;
+  border-radius: 15px;
+  margin-top: 0.2em;
+  color: #031301;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.addCart:hover {
+  background-color: #209506;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  justify-content: right;
+}
