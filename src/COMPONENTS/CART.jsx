@@ -1,7 +1,6 @@
 import "../STYLES/CART.css";
 import { ShopContext } from "../App";
-import { useState, useContext } from "react";
-
+import { useContext } from "react";
 
 
 function Cart() {
